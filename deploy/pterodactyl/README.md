@@ -29,7 +29,7 @@ Set `OPENRUNE_WRITE_CONFIG=0` if you upload your own `central-config.yaml` and d
 Pterodactyl Startup is usually **one line** for this field. Use **semicolons** between entries (the config module splits them on start):
 
 ```
-title=Fluxious;codebase=http://w1.example.com/;cachedir=fluxious;param=25=238;param=17=http://central.example.com:9090/worldslist.ws;msg=ok=OK
+title=openrune;codebase=http://w1.example.com/;cachedir=openrune;param=25=238;param=17=http://central.example.com:9090/worldslist.ws;msg=ok=OK
 ```
 
 You can also paste multiple `key=value` pairs on one line separated by spaces (`title=Foo codebase=http://…`). If your panel shows a multiline box (`textarea`), one entry per line still works.
