@@ -11,9 +11,9 @@ plugins {
 
 val hostingDirectory: File =
     System.getenv("HOSTING_DIRECTORY")?.let { File(it) }
-        ?: File("D:\\OpenRune\\openrune-hosting")
+        ?: File("C:\\Users\\home\\Desktop\\Programming\\Rsps\\OpenRune\\hosting")
 
-val buildNumber = System.getenv("BUILD_NUMBER") ?: "2.0.1"
+val buildNumber = System.getenv("BUILD_NUMBER") ?: "2.0.2"
 
 val centralPublishModules =
     listOf(
