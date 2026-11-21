@@ -1024,4 +1024,4 @@ class ClanService(
             WorldOpcodes.OP_WORLD_CLAN_SET_HALL_SETTINGS,
         )
     }
-}
+}
